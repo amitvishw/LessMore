@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#570450">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Tap More if the number goes up."
+        android:id="@+id/textView"
+        android:textSize="25dp"
+        android:layout_marginTop="50dp"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Tap Less if the number goes down."
+        android:id="@+id/textView2"
+        android:textSize="25dp"
+        android:layout_marginTop="30dp"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Be quick Time is runing out."
+        android:id="@+id/textView3"
+        android:textSize="25dp"
+        android:layout_marginTop="30dp"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="30dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:id="@+id/button_ok"
+        android:textStyle="bold"
+        android:textSize="50dp"
+        android:background="#ffffff"
+        android:textColor="#570450"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="100dp"
+        android:onClick="startGame" />
+</LinearLayout>
